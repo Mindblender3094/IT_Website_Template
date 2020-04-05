@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.backgroundimage{
+	background-image: url('image.jpg');
+	background-size: 100% 120%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{ 
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.left{
+	width: 25%;
+	line-height: 100px;
+	float: left;
+}
+
+.left h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white; 
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.right{
+	width: 75%;
+	height: 100px;
+	float: right;
+}
+
+.right ul{
+	margin-left: 200px;
+
+}
+
+.right ul li{
+	font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+
+}
+
+#first{
+	color: orange;
+}
+
+.right ul li:hover{
+	color: orange;
+}
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+.text h4{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	 font-size: 12px;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+    width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+
+#buttontwo{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+    width: 150px;
+    color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
